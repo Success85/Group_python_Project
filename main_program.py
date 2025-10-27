@@ -7,7 +7,7 @@ def get_user_info():
         name=input("What is your name? ")
         age=input("How old are you? ")
         print()
-        valid, name, age = helper_functions.validate_input(name, age)
+        valid, name, age = validate_input(name, age)
         if valid:
             return name, age
 
@@ -15,9 +15,9 @@ def main():
     show_intro()
     name, age = get_user_info()
 
-    binary_name, binary_age = helper_functions.convert_to_binary(name, age)
+    binary_name, binary_age = convert_to_binary(name, age)
 
-    message = create_message(name, age, name_binary, age_binary)
+    message = create_message(name, age, binary_name, binary_age)
 
     print("\n--- Your Personalized Message ---")
     print(message)
