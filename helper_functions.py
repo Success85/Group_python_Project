@@ -21,3 +21,11 @@ def validate_input(name, age):
         print("Invalid name")
         return False, None, None
     
+# define a function named 'convert_to_binary' that takes 'name' and 'age', and convert them to binary number
+def convert_to_binary(name, age):
+    # pass age to built-in function called 'bin' that will change  intiger to binary number and store the result in a variable called 'binary_number'
+    binary_number = bin(age)
+    # convert each character in name to its 8 bit long binary number form, join them and store it in variable called 'binary_value'
+    binary_value = ''.join(format(ord(char), '08b') for char in name)
+    # return binary number of name and age
+    return binary_value, binary_number
