@@ -29,8 +29,6 @@ def main():
 
     show_exit_message()
 
-main()
-
 if __name__ == "__main__":
     main()
   

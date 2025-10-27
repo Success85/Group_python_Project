@@ -1,1 +1,3 @@
-Hello kjdcn, you are 22 years oldName in binary: 0110101101101010011001000110001101101110Age in binary: 0b10110
+Hello Success, you are 20 years old
+Name in binary: 01010011011101010110001101100011011001010111001101110011
+Age in binary: 0b10100
