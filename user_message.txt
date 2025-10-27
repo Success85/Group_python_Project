@@ -1,0 +1,1 @@
+Hello kjdcn, you are 22 years oldName in binary: 0110101101101010011001000110001101101110Age in binary: 0b10110
